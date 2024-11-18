@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- //showing a particular section of the page -->
+
+    <h1>Showing particular section</h1>
+    <div>
+        <h4>Game Id : <%= foundSport._id%></h2>
+        <h4>Game Name : <%= foundSport.title%></h2>
+        <h4>Year Introduced : <%= foundSport._year%></h2>
+        <h4>IsPlayed : <%= foundSport.isPlayed%></h2>
+        <h4>Desc : <%= foundSport.description%></h2>
+
+        <a href="/sports">Go Back</a>
+        <a href="/sports/<%= foundSport._id%>/edit">Edit</a>
+        <form action="/sports/<%=foundSport._id%>?_method=DELETE" method="post">
+            <button>delete</button>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+<%-include('.partials/header')%>
+    <h1>Form for sending POST request</h1>
+
+    <form action="/sam" method="post">
+        <div>
+            <label for="naam">Enter Username</label>
+            <input type="text" name="username" id ="naam" placeholder="Enter your username">
+        </div>
+        <div>
+             <label for="pass">Enter Password</label>
+             <input type="password" name="password" id="pass" placeholder="Enter your password">
+        </div>
+        <button>Submit</button>
+    </form>
+<%-include('.partials/footer')%>

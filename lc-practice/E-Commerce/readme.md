@@ -45,7 +45,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/shopping-sam-app.git
+   git clone https://github.com/Sachin-Rawat07/mernByCB/tree/main/lc-practice/E-Commerce
    cd shopping-sam-app
    ```
 

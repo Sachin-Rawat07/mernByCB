@@ -1,6 +1,6 @@
-# Shopping Sam App
+# ShoppSmart
 
-**Shopping Sam App** is a full-stack e-commerce web application that provides users with a seamless shopping experience. It features product listings, user authentication, reviews, cart management, and an intuitive UI powered by EJS templates. The app is built using modern web technologies such as Node.js, Express, MongoDB, and Passport.js for user authentication.
+**ShopSmart** is a full-stack e-commerce web application that provides users with a seamless shopping experience. It features product listings, user authentication, reviews, cart management, and an intuitive UI powered by EJS templates. The app is built using modern web technologies such as Node.js, Express, MongoDB, and Passport.js for user authentication.
 
 ---
 
@@ -46,7 +46,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Sachin-Rawat07/mernByCB/tree/main/lc-practice/E-Commerce
-   cd shopping-sam-app
+   
    ```
 
 2. Install dependencies:
@@ -57,7 +57,7 @@ Ensure you have the following installed:
 3. Set up environment variables:
    Create a `.env` file in the root directory and add:
    ```env
-   dbURL=mongodb://localhost:27017/shopping-sam-app
+   dbURL=mongodb://localhost:27017/shopSmart
    SECRET=yourSecretKey
    NODE_ENV=development
    ```
@@ -138,7 +138,7 @@ shopping-sam-app/
 
 | Variable   | Description                                | Default Value                           |
 |------------|--------------------------------------------|-----------------------------------------|
-| `dbURL`    | MongoDB connection string                 | `mongodb://localhost:27017/shopping-sam-app` |
+| `dbURL`    | MongoDB connection string                 | `mongodb://localhost:27017/shopsmart` |
 | `SECRET`   | Secret key for sessions                   | `weneedabettersecretkey`                |
 | `NODE_ENV` | Application environment                   | `development`                           |
 
